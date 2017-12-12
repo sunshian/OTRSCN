@@ -4,7 +4,7 @@ RUN useradd otrs
 
 ADD httpd.conf /usr/local/apache2/conf/	
 RUN apt-get update && apt-get install -y \
-            vim \
+            vim 
             #libapache-dbi-perl \
             #libapache2-mod-perl2 \
             #libarchive-zip-perl \
